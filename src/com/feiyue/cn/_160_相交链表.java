@@ -1,6 +1,6 @@
 package com.feiyue.cn;
 
-import com.t3go.cn.common.ListNode;
+import com.feiyue.cn.common.ListNode;
 
 /**
  *     面试题52. 两个链表的第一个公共节点

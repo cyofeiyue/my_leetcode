@@ -1,6 +1,6 @@
 package com.feiyue.cn;
 
-import com.t3go.cn.common.ListNode;
+import com.feiyue.cn.common.ListNode;
 
 public class _234_╩ьнда╢╠М {
     public boolean isPalindrome(ListNode head) {

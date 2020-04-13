@@ -1,6 +1,6 @@
 package com.feiyue.cn;
 
-import com.t3go.cn.common.TreeNode;
+import com.feiyue.cn.common.TreeNode;
 
 /**
  * https://leetcode-cn.com/problems/invert-binary-tree/
