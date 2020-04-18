@@ -4,12 +4,12 @@ import com.feiyue.cn.common.TreeNode;
 
 /**
  * https://leetcode-cn.com/problems/invert-binary-tree/
- * @author t3
+ * @author 
  *
  */
-public class _226_翻转二叉树 {
+public class _226_缈昏浆浜屽弶鏍憑
 	
-	//递归-前序
+	//閫掑綊-鍓嶅簭
 	public TreeNode invertTree1(TreeNode root) {
 		if (root == null) return root;
 		
@@ -23,7 +23,7 @@ public class _226_翻转二叉树 {
 		
 	}
 	
-	//递归-中序
+	//閫掑綊-涓簭
 	public TreeNode invertTree2(TreeNode root) {
 		if (root == null) return root;
 		
@@ -38,7 +38,7 @@ public class _226_翻转二叉树 {
 		
 	}
 	
-	//递归-后序
+	//閫掑綊-鍚庡簭
 	public TreeNode invertTree3(TreeNode root) {
 		if (root == null) return root;
 		

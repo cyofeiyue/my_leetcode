@@ -1,6 +1,6 @@
 package com.feiyue.cn;
 
-public class _203_ÒÆ³ıÁ´±íÔªËØ {
+public class _203_ç§»é™¤é“¾è¡¨å…ƒç´  {
 	/**
 	 * Definition for singly-linked list.
 	 */
@@ -20,7 +20,7 @@ public class _203_ÒÆ³ıÁ´±íÔªËØ {
 		ListNode newTail = newHead;
 		
 		while (head != null) {
-			if (head.val != val) {//·ûºÏÌõ¼şµÄÔªËØÁôÏÂ
+			if (head.val != val) {//ç¬¦åˆæ¡ä»¶çš„å…ƒç´ ç•™ä¸‹
 				newTail.next = head;
 				
 				

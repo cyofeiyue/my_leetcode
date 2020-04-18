@@ -2,7 +2,7 @@ package com.feiyue.cn;
 
 import java.util.Stack;
 
-public class _150_Äæ²¨À¼±í´ïÊ½ÇóÖµ {
+public class _150_é€†æ³¢å…°è¡¨è¾¾å¼æ±‚å€¼Öµ {
 	
 	public int evalRPN(String[] tokens) {
 		Stack<String> s = new Stack<String>();
@@ -22,7 +22,7 @@ public class _150_Äæ²¨À¼±í´ïÊ½ÇóÖµ {
                 } else if (str.equals("/")) {
                     result = a / b;
                 } else {
-                	throw new RuntimeException("·ûºÅ´íÎó");
+                	throw new RuntimeException("error");
                 }
                 s.push("" + result);
             }

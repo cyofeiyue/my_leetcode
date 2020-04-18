@@ -1,6 +1,6 @@
 package com.feiyue.cn;
 
-public class _2_Á½ÊıÏà¼Ó {
+public class _2_ä¸¤æ•°ç›¸åŠ  {
 	/**
 	 * Definition for singly-linked list.
 	 */
@@ -12,11 +12,10 @@ public class _2_Á½ÊıÏà¼Ó {
 			val = x;
 		}
 	}
-	
 	/**
-	 * ÊäÈë£º(2 -> 4 -> 3) + (5 -> 6 -> 4)
-            *Êä³ö£º7 -> 0 -> 8
-            * Ô­Òò£º342 + 465 = 807
+	 * è¾“å…¥ï¼š(2 -> 4 -> 3) + (5 -> 6 -> 4)
+     *è¾“å‡ºï¼š7 -> 0 -> 8
+     * åŸå› ï¼š342 + 465 = 807
 	 * @param l1
 	 * @param l2
 	 * @return

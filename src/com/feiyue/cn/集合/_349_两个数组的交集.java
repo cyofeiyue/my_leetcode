@@ -1,4 +1,4 @@
-package com.feiyue.cn.¼¯ºÏ;
+package com.feiyue.cn.é›†åˆ;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,25 +7,25 @@ import java.util.TreeSet;
 
 /**
  * 
- * TreeSet¡¢TreeMap»ùÓÚÆ½ºâ¶ş²æÊ÷µÄÊµÏÖ£¬Ê±¼ä¸´ÔÓ¶È O(logN)
- * HashSet¡¢HashMap»ùÓÚ¹şÏ£±íµÄÊµÏÖ
- * ¶ÔÍâ½Ó¿ÚÏàÍ¬
+ * TreeSetã€TreeMapåŸºäºå¹³è¡¡äºŒå‰æ ‘çš„å®ç°ï¼Œæ—¶é—´å¤æ‚åº¦ O(logN)
+ * HashSetã€HashMapåŸºäºå“ˆå¸Œè¡¨çš„å®ç°
+ * å¯¹å¤–æ¥å£ç›¸åŒ
  * https://leetcode-cn.com/problems/intersection-of-two-arrays/
- * @author t3
+ * @author 
  *
  */
-public class _349_Á½¸öÊı×éµÄ½»¼¯ {
+public class _349_ä¸¤ä¸ªæ•°ç»„çš„äº¤é›† {
     public int[] intersection(int[] nums1, int[] nums2) {
     	TreeSet<Integer> set = new TreeSet<>();
     	
-    	//nums1·Å½øÈ¥ÖØ¼¯ºÏ
+    	//nums1æ”¾è¿›å»é‡é›†åˆ
     	for (int num : nums1) {
     		set.add(num);
 		}
     	
     	List<Integer> list = new ArrayList<Integer>();
     	
-    	//nums2·Å½øÈ¥ÖØ¼¯ºÏ
+    	//nums2æ”¾è¿›å»é‡é›†åˆ
     	for (int num : nums2) {
 			if (set.contains(num)) {
 				list.add(num);
@@ -46,7 +46,7 @@ public class _349_Á½¸öÊı×éµÄ½»¼¯ {
         int[] nums1 = new int[]{9,4,9,8,4};
         int[] nums2 = new int[] {4,9,5,4,4,9};
         
-        int[] ints = new _349_Á½¸öÊı×éµÄ½»¼¯().intersection(nums1, nums2);
+        int[] ints = new _349_ä¸¤ä¸ªæ•°ç»„çš„äº¤é›†().intersection(nums1, nums2);
         System.out.println(Arrays.toString(ints));
 	}
 	

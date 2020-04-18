@@ -1,5 +1,5 @@
 package com.feiyue.cn;
 
-public class _83_删除排序链表中的重复元素 {
+public class _83_鍒犻櫎鎺掑簭閾捐〃涓殑閲嶅鍏冪礌 {
 
 }

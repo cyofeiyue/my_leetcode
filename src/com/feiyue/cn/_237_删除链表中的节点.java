@@ -1,6 +1,6 @@
 package com.feiyue.cn;
 
-public class _237_删除链表中的节点 {
+public class _237_鍒犻櫎閾捐〃涓殑鑺傜偣 {
 
 	/**
 	 * Definition for singly-linked list.

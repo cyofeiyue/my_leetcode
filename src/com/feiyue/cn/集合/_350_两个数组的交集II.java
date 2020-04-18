@@ -1,4 +1,4 @@
-package com.feiyue.cn.集合;
+package com.feiyue.cn.闆嗗悎;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,13 +6,13 @@ import java.util.TreeMap;
 
 /**
  * https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/
- * @author t3
+ * @author 
  *
  */
-public class _350_两个数组的交集II {
+public class _350_涓や釜鏁扮粍鐨勪氦闆咺I {
 	
     public int[] intersect(int[] nums1, int[] nums2) {
-    	//映射<元素， 出现频次>
+    	//映锟斤拷<元锟截ｏ拷 锟斤拷锟斤拷频锟斤拷>
         TreeMap<Integer, Integer> map = new TreeMap<>();
         for (int num : nums1) {
             if (!map.containsKey(num)) {
@@ -46,7 +46,7 @@ public class _350_两个数组的交集II {
         int[] nums1 = new int[]{9,4,9,8,4};
         int[] nums2 = new int[] {4,9,5,4,4,9};
         
-        int[] ints = new _350_两个数组的交集II().intersect(nums1, nums2);
+        int[] ints = new _350_涓や釜鏁扮粍鐨勪氦闆咺I().intersect(nums1, nums2);
         System.out.println(Arrays.toString(ints));
 	}
 

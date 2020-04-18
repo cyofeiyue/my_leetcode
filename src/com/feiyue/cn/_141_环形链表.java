@@ -1,6 +1,6 @@
 package com.feiyue.cn;
 
-public class _141_环形链表 {
+public class _141_鐜舰閾捐〃 {
 
 	/**
 	 * Definition for singly-linked list.
@@ -18,7 +18,7 @@ public class _141_环形链表 {
 //	public boolean hasCycle(ListNode head) {
 //		if (head == null || head.next == null) return false;
 //		
-//		//快慢指针跑步的形式
+//		//锟斤拷锟斤拷指锟斤拷锟杰诧拷锟斤拷锟斤拷式
 //		ListNode slow = head.next;
 //		ListNode fast = head.next.next;
 //		
@@ -32,9 +32,9 @@ public class _141_环形链表 {
 //		return false;
 //	}
 	
-	//时间复杂度 O(N/2)即O(N)
-	//能不能走三步，可能会错过好几圈。
-	//每走一步，两者距离会减少1，相隔N，一次while循环，相隔，n-1
+	//时锟戒复锟接讹拷 O(N/2)锟斤拷O(N)
+	//锟杰诧拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟杰伙拷锟斤拷锟矫硷拷圈锟斤拷
+	//每锟斤拷一锟斤拷锟斤拷锟斤拷锟竭撅拷锟斤拷锟斤拷锟斤拷1锟斤拷锟斤拷锟絅锟斤拷一锟斤拷while循锟斤拷锟斤拷锟斤拷锟斤拷锟絥-1
 	public boolean hasCycle(ListNode head) {
 		if (head == null || head.next == null) return false;
 		

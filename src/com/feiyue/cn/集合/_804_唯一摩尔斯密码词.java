@@ -1,20 +1,20 @@
-package com.feiyue.cn.¼¯ºÏ;
+package com.feiyue.cn.é›†åˆ;
 
 import java.util.HashSet;
 
 /**
- * TreeSet »ùÓÚºìºÚÊ÷£¬AVLÊµÏÖ£¬Ê±¼ä¸´ÔÓ¶È£ºO(logN)
- * ÓĞĞò¼¯ºÏ£º»ùÓÚËÑË÷Ê÷
- * ÎŞĞè¼¯ºÏ£º»ùÓÚÁ´±í£¬ĞÔÄÜ²îÓÚ ¹şÏ£±í
- * ¶àÖØ¼¯ºÏ£ºÔÊĞíÖØ¸´ »ùÓÚÔÊĞíÖØ¸´¶ş·ÖËÑË÷Ê÷
+ * TreeSet åŸºäºçº¢é»‘æ ‘ï¼ŒAVLå®ç°ï¼Œæ—¶é—´å¤æ‚åº¦ï¼šO(logN)
+ * æœ‰åºé›†åˆï¼šåŸºäºæœç´¢æ ‘
+ * æ— éœ€é›†åˆï¼šåŸºäºé“¾è¡¨ï¼Œæ€§èƒ½å·®äº å“ˆå¸Œè¡¨
+ * å¤šé‡é›†åˆï¼šå…è®¸é‡å¤ åŸºäºå…è®¸é‡å¤äºŒåˆ†æœç´¢æ ‘
  * 
- *ÀıÈç:
- *ÊäÈë: words = ["gin", "zen", "gig", "msg"]
- *Êä³ö: 2
- * @author t3
+ *ä¾‹å¦‚:
+ *è¾“å…¥: words = ["gin", "zen", "gig", "msg"]
+ *è¾“å‡º: 2
  *
  */
-public class _804_Î¨Ò»Ä¦¶ûË¹ÃÜÂë´Ê {
+
+public class _804_å”¯ä¸€æ‘©å°”æ–¯å¯†ç è¯ {
     public int uniqueMorseRepresentations(String[] words) {
     	String[] codes = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
     	
@@ -32,7 +32,7 @@ public class _804_Î¨Ò»Ä¦¶ûË¹ÃÜÂë´Ê {
     
     public static void main(String[] args) {
     	String[] words = {"gin", "zen", "gig", "msg"};
-    	System.out.println(new _804_Î¨Ò»Ä¦¶ûË¹ÃÜÂë´Ê().uniqueMorseRepresentations(words));
+    	System.out.println(new _804_å”¯ä¸€æ‘©å°”æ–¯å¯†ç è¯().uniqueMorseRepresentations(words));
 		
 	}
 

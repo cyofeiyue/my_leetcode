@@ -2,9 +2,9 @@ package com.feiyue.cn;
 
 import java.util.Stack;
 
-public class _232_й╧сцу╩й╣ож╤сап {
+public class _232_Д╫©Г■╗Ф═┬Е╝·Г▌╟И≤÷Е┬≈ {
     /** Initialize your data structure here. */
-    public _232_й╧сцу╩й╣ож╤сап() {
+    public _232_Д╫©Г■╗Ф═┬Е╝·Г▌╟И≤÷Е┬≈() {
 
     }
     
@@ -44,7 +44,7 @@ public class _232_й╧сцу╩й╣ож╤сап {
     }
     
     public static void main(String[] args) {
-    	_232_й╧сцу╩й╣ож╤сап myQueue = new _232_й╧сцу╩й╣ож╤сап();
+    	_232_Д╫©Г■╗Ф═┬Е╝·Г▌╟И≤÷Е┬≈ myQueue = new _232_Д╫©Г■╗Ф═┬Е╝·Г▌╟И≤÷Е┬≈();
     	myQueue.push(1);
     	myQueue.push(2);
     	myQueue.push(3);

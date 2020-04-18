@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-public class _20_ÓĞĞ§µÄÀ¨ºÅ {
+public class _20_æœ‰æ•ˆçš„æ‹¬å· {
 	
 	private static Map<Character, Character> map = new HashMap<>();
 	static {
@@ -32,7 +32,7 @@ public class _20_ÓĞĞ§µÄÀ¨ºÅ {
 			char c = s.charAt(i);
 			if (c == '[' || c == '{' || c == '(') {
 				stack.push(c);
-			} else { //ÓÒÀ¨ºÅ ] } )
+			} else { //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ] } )
 				if (stack.isEmpty()) return false;
 				char left = stack.pop();
 				if (left == '(' && c != ')') return false;
@@ -55,7 +55,7 @@ public class _20_ÓĞĞ§µÄÀ¨ºÅ {
 			char c = s.charAt(i);
 			if (map.containsKey(c)) {
 				stack.push(c);
-			} else { //ÓÒÀ¨ºÅ ] } )
+			} else { //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ] } )
 				if (stack.isEmpty()) return false;
 				char left = stack.pop();
 				

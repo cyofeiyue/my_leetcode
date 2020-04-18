@@ -2,7 +2,7 @@ package com.feiyue.cn;
 
 import com.feiyue.cn.common.ListNode;
 
-public class _234_»ØÎÄÁ´±í {
+public class _234_å›æ–‡é“¾è¡¨ {
     public boolean isPalindrome(ListNode head) {
     	return false;
     }

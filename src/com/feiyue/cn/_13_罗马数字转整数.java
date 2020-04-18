@@ -5,16 +5,15 @@ import java.util.Map;
 
 /**
  * https://leetcode-cn.com/problems/roman-to-integer/
- * ÂÞÂíÊý×ÖÓÉ I,V,X,L,C,D,M ¹¹³É£»
- * µ±Ð¡ÖµÔÚ´óÖµµÄ×ó±ß£¬Ôò¼õÐ¡Öµ£¬Èç IV=5-1=4£»
- * µ±Ð¡ÖµÔÚ´óÖµµÄÓÒ±ß£¬Ôò¼ÓÐ¡Öµ£¬Èç VI=5+1=6£»
- * ÓÉÉÏ¿ÉÖª£¬ÓÒÖµÓÀÔ¶ÎªÕý£¬Òò´Ë×îºóÒ»Î»±ØÈ»ÎªÕý¡£
- * 
- * @author t3
+ * ç½—é©¬æ•°å­—ç”± I,V,X,L,C,D,M æž„æˆï¼›
+ * å½“å°å€¼åœ¨å¤§å€¼çš„å·¦è¾¹ï¼Œåˆ™å‡å°å€¼ï¼Œå¦‚ IV=5-1=4ï¼›
+ * å½“å°å€¼åœ¨å¤§å€¼çš„å³è¾¹ï¼Œåˆ™åŠ å°å€¼ï¼Œå¦‚ VI=5+1=6ï¼›
+ * ç”±ä¸Šå¯çŸ¥ï¼Œå³å€¼æ°¸è¿œä¸ºæ­£ï¼Œå› æ­¤æœ€åŽä¸€ä½å¿…ç„¶ä¸ºæ­£ã€‚
+ * @author 
  *
  */
 
-public class _13_ÂÞÂíÊý×Ö×ªÕûÊý {
+public class _13_ç½—é©¬æ•°å­—è½¬æ•´æ•° {
 	private static Map<String, Integer> map = new HashMap<>();
 
 	static {
@@ -49,9 +48,10 @@ public class _13_ÂÞÂíÊý×Ö×ªÕûÊý {
 	}
 	
 	/**
-	 * ÂÞÂíÊý×ÖÓÉ IVXLCDM ¹¹³É£»
-	 * °ÑÒ»¸öÐ¡Öµ·ÅÔÚ´óÖµµÄ×ó±ß£¬¾ÍÊÇ×ö¼õ·¨£¬
-	 * °ÑÒ»¸öÐ¡Öµ·ÅÔÚ´óÖµµÄÓÒ±ß£¬¾ÍÊÇ×ö¼Ó·¨
+	/**
+	 * ç½—é©¬æ•°å­—ç”± IVXLCDM æž„æˆï¼›
+	 * æŠŠä¸€ä¸ªå°å€¼æ”¾åœ¨å¤§å€¼çš„å·¦è¾¹ï¼Œå°±æ˜¯åšå‡æ³•ï¼Œ
+	 * æŠŠä¸€ä¸ªå°å€¼æ”¾åœ¨å¤§å€¼çš„å³è¾¹ï¼Œå°±æ˜¯åšåŠ æ³•
 	 * @param str
 	 * @return
 	 */
@@ -61,7 +61,7 @@ public class _13_ÂÞÂíÊý×Ö×ªÕûÊý {
     	
     	for (int i = 1; i < s.length(); i++) {
 			int num = getVal(s.charAt(i));
-			//µ±Ç°Êý×Ö±ÈÇ°ÈÎÊý×Ö Ð¡»òÏàµÈ
+			//å½“å‰æ•°å­—æ¯”å‰ä»»æ•°å­— å°æˆ–ç›¸ç­‰
 			if (num <= preNum) {
 				sum += preNum;
 			} else {
@@ -78,7 +78,7 @@ public class _13_ÂÞÂíÊý×Ö×ªÕûÊý {
 
 	
 	public static void main(String[] args) {
-		_13_ÂÞÂíÊý×Ö×ªÕûÊý xx = new _13_ÂÞÂíÊý×Ö×ªÕûÊý();
+		_13_ç½—é©¬æ•°å­—è½¬æ•´æ•° xx= new _13_ç½—é©¬æ•°å­—è½¬æ•´æ•°();
 		System.out.println(xx.romanToInt("XVI")); //3
 		//System.out.println(xx.romanToInt("XXIV"));
 		//                               10 10 1 5

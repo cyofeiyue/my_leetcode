@@ -2,10 +2,10 @@ package com.feiyue.cn;
 
 /**
  * https://leetcode-cn.com/problems/excel-sheet-column-number/
- * @author t3
+ * @author 
  *
  */
-public class _171_Excel表列序号 {
+public class _171_Excel琛ㄥ簭鍒楀彿 {
 //    public int titleToNumber(String s) {
 //    	int res = 0;
 //    	for (int i = 0; i < s.length(); i++) {
@@ -19,7 +19,7 @@ public class _171_Excel表列序号 {
 		
 		for (int i = 0; i < s.length(); i++) {
 			int tmp = s.charAt(i) - 'A' + 1;
-			//26进制
+			
 			res = res * 26 + tmp;
 		}
 		return res;
@@ -28,7 +28,7 @@ public class _171_Excel表列序号 {
 	
 	
 	public static void main(String[] args) {
-		_171_Excel表列序号 xx = new _171_Excel表列序号();
+		_171_Excel琛ㄥ簭鍒楀彿 xx = new _171_Excel琛ㄥ簭鍒楀彿();
 		//System.out.println('Z' - 'X');
 		System.out.println(xx.titleToNumber("AC"));
 		

@@ -2,7 +2,7 @@ package com.feiyue.cn;
 
 import java.util.Arrays;
 
-public class _88_合并两个有序数组 {
+public class _88_鍚堝苟涓や釜鏈夊簭鏁扮粍 {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
     	// nums1 = [1,3,5,0,0,0], m = 3
     	// nums2 = [2,4,6],       n = 3
@@ -20,7 +20,7 @@ public class _88_合并两个有序数组 {
     }
     
     public static void main(String[] args) {
-    	_88_合并两个有序数组 name = new _88_合并两个有序数组();
+    	_88_鍚堝苟涓や釜鏈夊簭鏁扮粍 name = new _88_鍚堝苟涓や釜鏈夊簭鏁扮粍();
     	int[] nums1 = {1,2,3,0,0};
     	int[] nums2 = {2,5,6};
     	

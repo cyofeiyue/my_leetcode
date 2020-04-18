@@ -3,10 +3,10 @@ package com.feiyue.cn;
 
 /**
  * https://leetcode-cn.com/problems/validate-binary-search-tree/
- * @author t3
+ * @author 
  *
  */
-public class _98_ÑéÖ¤¶ş²æËÑË÷Ê÷ {
+public class _98_éªŒè¯äºŒå‰æœç´¢æ ‘ {
 	public boolean isValidBST() {
 		
 		return false;

@@ -2,7 +2,7 @@ package com.feiyue.cn;
 
 import com.feiyue.cn.common.ListNode;
 
-public class _86_·Ö¸ôÁ´±í {
+public class _86_åˆ†éš”é“¾è¡¨ {
     public ListNode partition(ListNode head, int x) {
     	
     	

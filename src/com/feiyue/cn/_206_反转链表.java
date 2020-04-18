@@ -1,6 +1,6 @@
 package com.feiyue.cn;
 
-public class _206_·´×ªÁ´±í {
+public class _206_åè½¬é“¾è¡¨ {
 	/**
 	 * Definition for singly-linked list.
 	 */
