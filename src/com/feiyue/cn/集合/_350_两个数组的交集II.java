@@ -12,7 +12,7 @@ import java.util.TreeMap;
 public class _350_两个数组的交集II {
 	
     public int[] intersect(int[] nums1, int[] nums2) {
-    	//ӳ��<Ԫ�أ� ����Ƶ��>
+    	//<元素，频次>
         TreeMap<Integer, Integer> map = new TreeMap<>();
         for (int num : nums1) {
             if (!map.containsKey(num)) {
