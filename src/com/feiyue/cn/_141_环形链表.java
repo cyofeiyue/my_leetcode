@@ -18,7 +18,6 @@ public class _141_环形链表 {
 //	public boolean hasCycle(ListNode head) {
 //		if (head == null || head.next == null) return false;
 //		
-//		//����ָ���ܲ�����ʽ
 //		ListNode slow = head.next;
 //		ListNode fast = head.next.next;
 //		
@@ -32,9 +31,6 @@ public class _141_环形链表 {
 //		return false;
 //	}
 	
-	//ʱ�临�Ӷ� O(N/2)��O(N)
-	//�ܲ��������������ܻ����ü�Ȧ��
-	//ÿ��һ�������߾�������1�����N��һ��whileѭ���������n-1
 	public boolean hasCycle(ListNode head) {
 		if (head == null || head.next == null) return false;
 		

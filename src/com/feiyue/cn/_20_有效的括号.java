@@ -32,7 +32,7 @@ public class _20_有效的括号 {
 			char c = s.charAt(i);
 			if (c == '[' || c == '{' || c == '(') {
 				stack.push(c);
-			} else { //������ ] } )
+			} else { //右括号] } )
 				if (stack.isEmpty()) return false;
 				char left = stack.pop();
 				if (left == '(' && c != ')') return false;
@@ -55,7 +55,7 @@ public class _20_有效的括号 {
 			char c = s.charAt(i);
 			if (map.containsKey(c)) {
 				stack.push(c);
-			} else { //������ ] } )
+			} else { //右括号 ] } )
 				if (stack.isEmpty()) return false;
 				char left = stack.pop();
 				
