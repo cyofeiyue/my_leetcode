@@ -10,29 +10,32 @@ import com.feiyue.cn.common.TreeNode;
 public class _226_翻转二叉树{
 	
 	//递归-前序
-	public TreeNode invertTree1(TreeNode root) {
+	public TreeNode inverTree1(TreeNode root) {
 		if (root == null) return root;
-		
 		TreeNode tmp = root.left;
 		root.left = root.right;
 		root.right = tmp;
 		
-		invertTree1(root.left);
-		invertTree1(root.right);
+		inverTree1(root.left);
+		inverTree1(root.right);
+		
 		return root;
 		
 	}
+
 	
 	//递归-中序
 	public TreeNode invertTree2(TreeNode root) {
 		if (root == null) return root;
 		
+		//注意1
 		invertTree2(root.left);
 		
 		TreeNode tmp = root.left;
 		root.left = root.right;
 		root.right = tmp;
 		
+		//TODO 注意2，已经交换过了。
 		invertTree2(root.left);
 		return root;
 		
