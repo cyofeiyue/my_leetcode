@@ -15,11 +15,11 @@ import com.feiyue.cn.common.TreeNode;
 public class _144_二叉树的前序遍历 {
     public List<Integer> preorderTraversal(TreeNode root) {
     	List<Integer> result = new ArrayList<>();
-    	if (root == null) return result;
-    	
+    
     	Stack<TreeNode> stack = new Stack<>();
     	
-    	stack.push(root);
+    	if (root != null) stack.push(root);
+    	
     	while (!stack.isEmpty()) {
     		TreeNode node = stack.pop();
 			result.add(node.val);
