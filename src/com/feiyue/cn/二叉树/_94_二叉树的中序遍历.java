@@ -6,11 +6,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+/**
+ *https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
+ */
 public class _94_二叉树的中序遍历 {
 
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        
+
         TreeNode p = root;
         Stack<TreeNode> stack = new Stack<>();
 
