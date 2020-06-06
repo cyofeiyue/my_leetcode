@@ -72,7 +72,7 @@ public class _75_颜色分类 {
 		_75_颜色分类  xxx = new _75_颜色分类();
 		xxx.sortColors(nums);
 		
-		System.out.println(Arrays.stream( nums ).boxed().collect(Collectors.toList()));
+		System.out.println(Arrays.stream(nums).boxed().collect(Collectors.toList()));
 		
 		
 	}
