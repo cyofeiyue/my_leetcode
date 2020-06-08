@@ -17,14 +17,14 @@ public class _98_验证二叉搜索树 {
     public boolean isValidBST(TreeNode root) {
     	if (root == null) return true;
     	
-    	isValidBST(root.left);
+    	if(!isValidBST(root.left)) return false;
     	
     	//上一次的值 >= 本次的值，那么不是升序， 两者相等也不算。
     	if (last != null && last >= root.val) return false;
     	
     	last = root.val;
     	
-    	isValidBST(root.right);
+    	if(!isValidBST(root.right)) return false;
     	
     	return true;
 
