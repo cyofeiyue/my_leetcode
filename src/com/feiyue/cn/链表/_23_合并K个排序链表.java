@@ -26,14 +26,29 @@ public class _23_合并K个排序链表 {
     		
 		};
     	
+		//dummy head
 		ListNode head = new ListNode(0);
+		ListNode cur = head;
+		
     	//最小堆，优先级队列
-    	PriorityQueue<ListNode> priorityQueue = new PriorityQueue<>(comparator);
+    	PriorityQueue<ListNode> queue = new PriorityQueue<>(comparator);
+    	
+
+    	for (ListNode list : lists) {
+    		if (list == null) continue;
+    		queue.offer(list);
+		}
+    	
+    	while (!queue.isEmpty()) {
+			ListNode node = queue.poll();
+			cur = cur.next = node;
+			if (node.next != null) {
+				queue.offer(node.next);
+			}
+		}
     	
     	
-    	
-    	
-		return null;
+		return head.next;
 
     }
 
